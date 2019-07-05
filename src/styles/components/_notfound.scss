@@ -1,0 +1,17 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.notfound-text {
+    font-size: 30rem;
+}
+
+.notfound-link {
+    font-size: $font-size-large;
+    text-decoration: none;
+}

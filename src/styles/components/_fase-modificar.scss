@@ -1,0 +1,35 @@
+.nueva-fase {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.nombre {
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    width: 50%;
+    margin-bottom: 45px;
+}
+
+
+.caja {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tabla {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+ .eliminar {
+    flex-direction: row;
+ }

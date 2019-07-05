@@ -1,0 +1,67 @@
+.nuevo-aliado{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.ali-nuevo-titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-nuevo-ali {
+    font-size: $font-size-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.ali-nombre-nuevo {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.aliado-nombre-nuevo{
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.caja-mineral {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.caja-botones-nuevo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.caja-fecha-aliado {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fecha-aliado-label {
+    margin-right: 20px;
+}

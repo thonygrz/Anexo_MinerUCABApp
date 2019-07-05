@@ -1,0 +1,42 @@
+.login {
+    align-items: center;
+    background: #0C6573;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.login-box {
+    align-items: center;
+    background: fade-out(white, .15);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    padding: $l-size;
+    width: 70rem;
+    height: 40rem;
+}
+
+.login-form {
+    flex: 1;
+}
+
+.login-form-group {
+    margin: $m-size;
+}
+
+.login-text {
+    font-size: $font-size-small;
+}
+
+.login-error {
+    font-size: $font-size-small;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}

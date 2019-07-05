@@ -1,0 +1,19 @@
+.caja-botones-eliminar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.boton-eliminar {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.eliminar-titulo {
+    font-size: $font-size-large;
+}
+
+.eliminar-body {
+    font-size: $font-size-small;
+}

@@ -1,0 +1,94 @@
+.nuevo-empleado{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.emp-nuevo-titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-nuevo-emp {
+    font-size: $font-size-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.caja-dosColumns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.emp-nombre {
+    width: 40%;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.empleado-nombre {
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.emp-fecha {
+    width: 40%;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuarioOp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.emp-inputs {
+    font-size: $font-size-large;
+}
+
+.caja-botones-nuevo-usuarioOp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.caja-botones-nuevo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.botones-nuevo {
+    font-size: $font-size-large;
+    width: 15%;
+    margin: 10px;
+}
+
+.dia {
+    margin-right: 30px;
+}

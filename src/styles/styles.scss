@@ -1,0 +1,36 @@
+@import './bootstrap.min.css';
+@import './base/settings';
+@import './base/base';
+@import './components/content-container';
+@import './components/login';
+@import './components/header';
+@import './components/home';
+@import './components/notfound';
+@import './components/yacimiento';
+@import './components/yacimiento-modificar';
+@import './components/yacimiento-nuevo';
+@import './components/etapas';
+@import './components/fase-nueva';
+@import './components/fase-modificar';
+@import './components/eliminar-modal';
+@import './components/tabla';
+@import './components/aliado';
+@import './components/aliado-nuevo';
+@import './components/aliado-modificar';
+@import './components/mineral';
+@import './components/empleado';
+@import './components/empleado-nuevo';
+@import './components/cliente';
+@import './components/compras';
+@import './components/estatus';
+@import './components/venta';
+@import './components/proyecto';
+@import './components/proyecto-modificar';
+@import './components/select';
+
+body {
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

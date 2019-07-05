@@ -1,0 +1,118 @@
+.ventas {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.datos-venta-mineral {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.caja-id {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.nombre-empleado {
+    width: 50%;
+    display: flex;
+    align-items: left;
+    font-size: $font-size-large;
+}
+
+.boton-historial {
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+    align-items: right;
+}
+
+.caja-botones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between
+}
+.boton-cancelar{
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+    align-items: left;
+}
+.boton-factura{
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.factura {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    font-size: $font-size-large;
+}
+
+.cantidad-mineral-ventas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.single-select-v {
+    width: 300px;
+}
+
+.caja-facturar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: $font-size-large;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.solicitud-texto {
+    width: 70%;
+}
+
+.miner {
+    font-weight: bold;
+}
+
+.fecha-solicitud-caja {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fecha-solicitud {
+    width: 50%;
+}
+
+.tp-cheque {
+    width: 40%;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tp-cheque-form {
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+}
